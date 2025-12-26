@@ -1,0 +1,9 @@
+### configuring static routes
+
+router2(config)#ip route  192.168.1.0 255.255.255.0 10.0.12.1
+router2(config)#ip route 10.0.34.0 255.255.255.0 10.0.23.2
+router2(config)#ip route 192.168.4.0 255.255.255.0 10.0.23.2
+router2(config)#end
+router2#
+%SYS-5-CONFIG_I: Configured from console by console
+
